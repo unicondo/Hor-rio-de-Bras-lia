@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Bruno Ferreira Alves">
+  <meta name="version" content="2.1">
+  <title>Horário Atual</title>
+  <meta name="description" content="Exibição do horário atual no formato de 24 horas no fuso horário de Brasília">
+  <meta name="keywords" content="horário, hora, relógio, Brasília, 24 horas">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/512_icon_allvz.com.br.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/192_icon_allvz.com.br.png">
+</head>
+<body  onload="exibirData()" cz-shortcut-listen="true">
+    <div id="wrapper">
+         <div id="main">
+              <div id="header">
+                   <h1>Horário de Brasília</h1>
+                   <h2>Acerte seu relógio com o horário de Brasília, a hora oficial do Brasil</h2>
+              </div>
+              <div id="content">
+                   <h3 id="dia-topo"><span class="data"></span></h3>
+                   <p id="relogio"><span id="horario-atual"></span></p>
+                   <p id="automatico" style="padding: 20px 0px 50px;color: #666;">A hora certa é sincronizada automaticamente. Não é necessário recarregar a página.</p>
+     
+              </div>
+              <div id="footer">
+                   <script>var s_width=screen.width,s_padding="20px 0 50px";s_width<600?s_padding="20px 0 30px":s_width<800?s_padding="20px 0 35px":s_width<1e3&&(s_padding="20px 0 40px"),doc.getElementById("automatico").style.padding=s_padding,doc.write('<p class="doe">Faça uma DOAÇÃO via PIX de qualquer valor e ajude a manter este site livre de anúncios irritantes. O site da hora certa necessita de servidores com alta capacidade de processamento para que não ocorra sobrecarga no sistema.<br><span class="chave-pix">Chave PIX: <span id="pix">&#100;&#111;&#101;&#64;&#105;&#116;&#101;&#99;&#104;&#46;&#119;&#105;&#110;</span></span><br><span class="qr-code">(<a href="/static/img/qr-code/qr-code-1.7.3695.png" target="_blank" title="QR Code" rel="noopener">doe via QR Code</a>)</span><p>');</script><p class="doe">Este site é um projeto de estudos e foi totalmente recriado com base no site <a href="https://www.horariodebrasilia.org/">Horário de Brasília</a></p><div id="footer2">
+                        <p><img src="./assets/images/brasil-flag.png" width="15" height="10" alt="Bandeira do Brasil" title="Bandeira do Brasil">Brasil (UTC-3) - Horario de Brasília, a hora oficial do Brasil<span class="break8"> • </span><span class="data"></span></p>
+                        <p>Allvz e UniCondo<br class="br-mb"><span class="span-mb"> • </span><a href="https://unicondo.app/" target="_blank" title="Toque aqui para conversar com a nossa equipe de desenvolvimento" rel="noopener">Contrate agora</a>.</p>
+                   </div>
+              </div>
+         </div>
+    </div>
+    <div class="end">
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+  </body>
+</html>

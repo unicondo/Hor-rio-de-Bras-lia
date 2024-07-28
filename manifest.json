@@ -1,0 +1,21 @@
+{
+  "name": "Horário de Brasília",
+  "short_name": "Horário",
+  "description": "Exibição do horário atual no formato de 24 horas no fuso horário de Brasília desenvolvidor por Allvz.com.br",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/assets/img/192_icon_allvz.com.br.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/512_icon_allvz.com.br.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
